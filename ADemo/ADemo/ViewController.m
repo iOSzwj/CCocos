@@ -7,17 +7,24 @@
 //
 
 #import "ViewController.h"
+#import <UIKit/UIKit.h>
 
 @interface ViewController ()
+
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, assign) NSInteger age;
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [super viewDidLoad];    
 }
 
-
 @end
+
+
+
+
+
