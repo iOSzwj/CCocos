@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "CCocos"
-spec.version      = "0.1.1"
+spec.version      = "0.1.2"
 spec.summary      = "中国共产党万岁"
 
 spec.description  = <<-DESC
@@ -15,7 +15,7 @@ spec.homepage     = "https://github.com/iOSzwj/CCocos"
 spec.license      = "MIT"
 spec.author             = { "hare27" => "hare27@foxmail.com" }
 spec.platform     = :ios, "9.0"
-spec.source       = { :git => "git@github.com:iOSzwj/CCocos.git", :tag => "#{spec.version}" }
+spec.source       = { :git => "https://github.com/iOSzwj/CCocos.git", :tag => "#{spec.version}" }
 spec.source_files  = "Code", "ACode/*.h"
 spec.requires_arc = true
 spec.frameworks = 'UIKit', 'Foundation'
