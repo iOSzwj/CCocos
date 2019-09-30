@@ -13,7 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIViewController (CCFrame)
 
 @property (nonatomic, assign, readonly) CGFloat cc_top;
-@property (nonatomic, assign, readonly) CGFloat cc_bottom;
+@property (nonatomic, assign, readonly) CGFloat cc_bottomH;
+@property (nonatomic, assign, readonly) CGFloat cc_bottomY;
 
 @end
 

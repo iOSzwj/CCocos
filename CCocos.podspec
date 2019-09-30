@@ -38,4 +38,10 @@ spec.subspec 'CCKit' do |cckit|
 cckit.source_files = 'ACode/CCKit/*.{h,m}'
 end
 
+spec.subspec 'MBProgressHUD' do |mb|
+mb.source_files = 'ACode/MBProgressHUD/*.{h,m}'、
+mb.resource_bundle = 'ACode/MBProgressHUD/**/*.png'
+mb.dependency 'MBProgressHUD'
+end
+
 end

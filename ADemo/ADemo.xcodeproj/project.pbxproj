@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F07D8885999FAC209393F15 /* Pods_ADemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5788530EE2E965DC1D8F68 /* Pods_ADemo.framework */; };
+		E50A342B234091B4000A7A76 /* UIColor+CCocos.m in Sources */ = {isa = PBXBuildFile; fileRef = E50A3429234091B4000A7A76 /* UIColor+CCocos.m */; };
+		E50A342F23409218000A7A76 /* MBProgressHUD+CCocos.m in Sources */ = {isa = PBXBuildFile; fileRef = E50A342E23409218000A7A76 /* MBProgressHUD+CCocos.m */; };
 		E50F1C1C231526B70015B487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E50F1C1B231526B70015B487 /* AppDelegate.m */; };
 		E50F1C1F231526B70015B487 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50F1C1E231526B70015B487 /* ViewController.m */; };
 		E50F1C22231526B70015B487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50F1C20231526B70015B487 /* Main.storyboard */; };
@@ -30,9 +33,17 @@
 		E5ABA7C12327DF1E0004D428 /* NSObject+CCPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ABA7B02327DF1E0004D428 /* NSObject+CCPerform.m */; };
 		E5ABA7C22327DF1E0004D428 /* NSUserDefaults+CCValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ABA7B32327DF1E0004D428 /* NSUserDefaults+CCValue.m */; };
 		E5ABA7C72327E1050004D428 /* CCVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ABA7C62327E1050004D428 /* CCVerticalButton.m */; };
+		E5D9103E2341A14000EC7462 /* MBProgressHUD_CCocos.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E5D9103D2341A14000EC7462 /* MBProgressHUD_CCocos.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EDE157CB97EB73213503BE7 /* Pods-ADemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADemo.release.xcconfig"; path = "Target Support Files/Pods-ADemo/Pods-ADemo.release.xcconfig"; sourceTree = "<group>"; };
+		BFBED2ECCF4900EB128B0394 /* Pods-ADemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADemo.debug.xcconfig"; path = "Target Support Files/Pods-ADemo/Pods-ADemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DE5788530EE2E965DC1D8F68 /* Pods_ADemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50A3429234091B4000A7A76 /* UIColor+CCocos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CCocos.m"; sourceTree = "<group>"; };
+		E50A342A234091B4000A7A76 /* UIColor+CCocos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CCocos.h"; sourceTree = "<group>"; };
+		E50A342D23409218000A7A76 /* MBProgressHUD+CCocos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+CCocos.h"; sourceTree = "<group>"; };
+		E50A342E23409218000A7A76 /* MBProgressHUD+CCocos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+CCocos.m"; sourceTree = "<group>"; };
 		E50F1C17231526B70015B487 /* ADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50F1C1A231526B70015B487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E50F1C1B231526B70015B487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +91,7 @@
 		E5ABA7B32327DF1E0004D428 /* NSUserDefaults+CCValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+CCValue.m"; sourceTree = "<group>"; };
 		E5ABA7C52327E1050004D428 /* CCVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVerticalButton.h; sourceTree = "<group>"; };
 		E5ABA7C62327E1050004D428 /* CCVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVerticalButton.m; sourceTree = "<group>"; };
+		E5D9103D2341A14000EC7462 /* MBProgressHUD_CCocos.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD_CCocos.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,17 +99,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F07D8885999FAC209393F15 /* Pods_ADemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A37C39E6265521C6E906E29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFBED2ECCF4900EB128B0394 /* Pods-ADemo.debug.xcconfig */,
+				0EDE157CB97EB73213503BE7 /* Pods-ADemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6D81F1A35B5C7D0095E963B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE5788530EE2E965DC1D8F68 /* Pods_ADemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E50A342C234091CF000A7A76 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E5D9103D2341A14000EC7462 /* MBProgressHUD_CCocos.bundle */,
+				E50A342D23409218000A7A76 /* MBProgressHUD+CCocos.h */,
+				E50A342E23409218000A7A76 /* MBProgressHUD+CCocos.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		E50F1C0E231526B70015B487 = {
 			isa = PBXGroup;
 			children = (
 				E50F1C19231526B70015B487 /* ADemo */,
 				E50F1C18231526B70015B487 /* Products */,
+				3A37C39E6265521C6E906E29 /* Pods */,
+				B6D81F1A35B5C7D0095E963B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +176,7 @@
 				E5ABA7A42327DF1E0004D428 /* FoundationCategory */,
 				E5ABA7912327DF1E0004D428 /* UIKitCategory */,
 				E5ABA7A12327DF1E0004D428 /* WebKitCategory */,
+				E50A342C234091CF000A7A76 /* MBProgressHUD */,
 			);
 			name = ACode;
 			path = ../../ACode;
@@ -159,6 +202,8 @@
 				E5ABA7932327DF1E0004D428 /* UIViewController+CCFrame.m */,
 				E56650172328A0B400EE85F0 /* UIButton+CCocos.h */,
 				E56650182328A0B400EE85F0 /* UIButton+CCocos.m */,
+				E50A342A234091B4000A7A76 /* UIColor+CCocos.h */,
+				E50A3429234091B4000A7A76 /* UIColor+CCocos.m */,
 			);
 			path = UIKitCategory;
 			sourceTree = "<group>";
@@ -210,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E50F1C2D231526B70015B487 /* Build configuration list for PBXNativeTarget "ADemo" */;
 			buildPhases = (
+				2139E7898F1AE57A6E27A950 /* [CP] Check Pods Manifest.lock */,
 				E50F1C13231526B70015B487 /* Sources */,
 				E50F1C14231526B70015B487 /* Frameworks */,
 				E50F1C15231526B70015B487 /* Resources */,
+				6A8C99AF23E4EE23248B1683 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,12 +308,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				E50F1C27231526B70015B487 /* LaunchScreen.storyboard in Resources */,
+				E5D9103E2341A14000EC7462 /* MBProgressHUD_CCocos.bundle in Resources */,
 				E50F1C24231526B70015B487 /* Assets.xcassets in Resources */,
 				E50F1C22231526B70015B487 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2139E7898F1AE57A6E27A950 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ADemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A8C99AF23E4EE23248B1683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ADemo/Pods-ADemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ADemo/Pods-ADemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ADemo/Pods-ADemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E50F1C13231526B70015B487 /* Sources */ = {
@@ -284,6 +374,7 @@
 				E5ABA7C72327E1050004D428 /* CCVerticalButton.m in Sources */,
 				E5ABA7BA2327DF1E0004D428 /* UIBarButtonItem+CCButton.m in Sources */,
 				E50F1C1C231526B70015B487 /* AppDelegate.m in Sources */,
+				E50A342B234091B4000A7A76 /* UIColor+CCocos.m in Sources */,
 				E56650192328A0B400EE85F0 /* UIButton+CCocos.m in Sources */,
 				E5ABA7C02327DF1E0004D428 /* NSString+CCHash.m in Sources */,
 				E5ABA7BE2327DF1E0004D428 /* NSDate+CCFmt.m in Sources */,
@@ -291,6 +382,7 @@
 				E5ABA7B52327DF1E0004D428 /* UIViewController+CCFrame.m in Sources */,
 				E5ABA7B82327DF1E0004D428 /* UIBarButtonItem+CCBlock.m in Sources */,
 				E5ABA7C12327DF1E0004D428 /* NSObject+CCPerform.m in Sources */,
+				E50A342F23409218000A7A76 /* MBProgressHUD+CCocos.m in Sources */,
 				E5ABA7BB2327DF1E0004D428 /* WKWebView+CCURL.m in Sources */,
 				E5ABA7B62327DF1E0004D428 /* UIControl+CCBlock.m in Sources */,
 			);
@@ -432,6 +524,7 @@
 		};
 		E50F1C2E231526B70015B487 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBED2ECCF4900EB128B0394 /* Pods-ADemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +543,7 @@
 		};
 		E50F1C2F231526B70015B487 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EDE157CB97EB73213503BE7 /* Pods-ADemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
