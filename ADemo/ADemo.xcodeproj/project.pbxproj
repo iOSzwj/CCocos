@@ -34,6 +34,7 @@
 		E5ABA7C22327DF1E0004D428 /* NSUserDefaults+CCValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ABA7B32327DF1E0004D428 /* NSUserDefaults+CCValue.m */; };
 		E5ABA7C72327E1050004D428 /* CCVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ABA7C62327E1050004D428 /* CCVerticalButton.m */; };
 		E5D9103E2341A14000EC7462 /* MBProgressHUD_CCocos.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E5D9103D2341A14000EC7462 /* MBProgressHUD_CCocos.bundle */; };
+		E5D979F223461BA200192C89 /* CCSpaceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D979F023461BA100192C89 /* CCSpaceButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,8 @@
 		E5ABA7C52327E1050004D428 /* CCVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVerticalButton.h; sourceTree = "<group>"; };
 		E5ABA7C62327E1050004D428 /* CCVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVerticalButton.m; sourceTree = "<group>"; };
 		E5D9103D2341A14000EC7462 /* MBProgressHUD_CCocos.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD_CCocos.bundle; sourceTree = "<group>"; };
+		E5D979F023461BA100192C89 /* CCSpaceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSpaceButton.m; sourceTree = "<group>"; };
+		E5D979F123461BA200192C89 /* CCSpaceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSpaceButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +247,8 @@
 			children = (
 				E5ABA7C52327E1050004D428 /* CCVerticalButton.h */,
 				E5ABA7C62327E1050004D428 /* CCVerticalButton.m */,
+				E5D979F123461BA200192C89 /* CCSpaceButton.h */,
+				E5D979F023461BA100192C89 /* CCSpaceButton.m */,
 			);
 			path = CCKit;
 			sourceTree = "<group>";
@@ -380,6 +385,7 @@
 				E5ABA7BE2327DF1E0004D428 /* NSDate+CCFmt.m in Sources */,
 				E5ABA7B92327DF1E0004D428 /* UIScreen+CCFrame.m in Sources */,
 				E5ABA7B52327DF1E0004D428 /* UIViewController+CCFrame.m in Sources */,
+				E5D979F223461BA200192C89 /* CCSpaceButton.m in Sources */,
 				E5ABA7B82327DF1E0004D428 /* UIBarButtonItem+CCBlock.m in Sources */,
 				E5ABA7C12327DF1E0004D428 /* NSObject+CCPerform.m in Sources */,
 				E50A342F23409218000A7A76 /* MBProgressHUD+CCocos.m in Sources */,
