@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "CCocos"
-spec.version      = "0.1.4"
+spec.version      = "0.1.5"
 spec.summary      = "中国共产党万岁"
 
 spec.description  = <<-DESC
@@ -42,6 +42,11 @@ spec.subspec 'MBProgressHUD' do |mb|
 mb.source_files = 'ACode/MBProgressHUD/*.{h,m}'
 mb.dependency 'MBProgressHUD'
 mb.resources = 'ACode/MBProgressHUD/MBProgressHUD_CCocos.bundle'
+end
+
+spec.subspec 'AFNetworking' do |af|
+af.source_files = 'ACode/AFNetworking/*.{h,m}'
+af.dependency 'AFNetworking'
 end
 
 end

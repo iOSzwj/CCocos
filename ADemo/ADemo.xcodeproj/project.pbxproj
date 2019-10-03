@@ -33,6 +33,7 @@
 		E5ABA7C12327DF1E0004D428 /* NSObject+CCPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ABA7B02327DF1E0004D428 /* NSObject+CCPerform.m */; };
 		E5ABA7C22327DF1E0004D428 /* NSUserDefaults+CCValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ABA7B32327DF1E0004D428 /* NSUserDefaults+CCValue.m */; };
 		E5ABA7C72327E1050004D428 /* CCVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ABA7C62327E1050004D428 /* CCVerticalButton.m */; };
+		E5D69857234622A70036BE5B /* AFHTTPSessionManager+CCocos.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D69856234622A70036BE5B /* AFHTTPSessionManager+CCocos.m */; };
 		E5D9103E2341A14000EC7462 /* MBProgressHUD_CCocos.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E5D9103D2341A14000EC7462 /* MBProgressHUD_CCocos.bundle */; };
 		E5D979F223461BA200192C89 /* CCSpaceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D979F023461BA100192C89 /* CCSpaceButton.m */; };
 /* End PBXBuildFile section */
@@ -92,6 +93,8 @@
 		E5ABA7B32327DF1E0004D428 /* NSUserDefaults+CCValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+CCValue.m"; sourceTree = "<group>"; };
 		E5ABA7C52327E1050004D428 /* CCVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVerticalButton.h; sourceTree = "<group>"; };
 		E5ABA7C62327E1050004D428 /* CCVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVerticalButton.m; sourceTree = "<group>"; };
+		E5D69855234622A70036BE5B /* AFHTTPSessionManager+CCocos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+CCocos.h"; sourceTree = "<group>"; };
+		E5D69856234622A70036BE5B /* AFHTTPSessionManager+CCocos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+CCocos.m"; sourceTree = "<group>"; };
 		E5D9103D2341A14000EC7462 /* MBProgressHUD_CCocos.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD_CCocos.bundle; sourceTree = "<group>"; };
 		E5D979F023461BA100192C89 /* CCSpaceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSpaceButton.m; sourceTree = "<group>"; };
 		E5D979F123461BA200192C89 /* CCSpaceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSpaceButton.h; sourceTree = "<group>"; };
@@ -179,6 +182,7 @@
 				E5ABA7A42327DF1E0004D428 /* FoundationCategory */,
 				E5ABA7912327DF1E0004D428 /* UIKitCategory */,
 				E5ABA7A12327DF1E0004D428 /* WebKitCategory */,
+				E5D6984E234620470036BE5B /* AFNetworking */,
 				E50A342C234091CF000A7A76 /* MBProgressHUD */,
 			);
 			name = ACode;
@@ -251,6 +255,15 @@
 				E5D979F023461BA100192C89 /* CCSpaceButton.m */,
 			);
 			path = CCKit;
+			sourceTree = "<group>";
+		};
+		E5D6984E234620470036BE5B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E5D69855234622A70036BE5B /* AFHTTPSessionManager+CCocos.h */,
+				E5D69856234622A70036BE5B /* AFHTTPSessionManager+CCocos.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,6 +390,7 @@
 				E5ABA7B72327DF1E0004D428 /* UIApplication+CCURL.m in Sources */,
 				E5ABA7BF2327DF1E0004D428 /* NSUserDefaults+CCInfo.m in Sources */,
 				E5ABA7C72327E1050004D428 /* CCVerticalButton.m in Sources */,
+				E5D69857234622A70036BE5B /* AFHTTPSessionManager+CCocos.m in Sources */,
 				E5ABA7BA2327DF1E0004D428 /* UIBarButtonItem+CCButton.m in Sources */,
 				E50F1C1C231526B70015B487 /* AppDelegate.m in Sources */,
 				E50A342B234091B4000A7A76 /* UIColor+CCocos.m in Sources */,
