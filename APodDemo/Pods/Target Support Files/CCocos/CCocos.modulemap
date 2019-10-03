@@ -1,0 +1,6 @@
+module CCocos {
+  umbrella header "CCocos-umbrella.h"
+
+  export *
+  module * { export * }
+}
