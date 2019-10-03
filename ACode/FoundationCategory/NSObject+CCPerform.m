@@ -118,7 +118,7 @@
     Method method = class_getInstanceMethod(self.class, sel);
     char *returnType = method_copyReturnType(method);
     if (strcmp(returnType, "B") == 0) {
-        return [self performSelector:sel];
+        return (BOOL)[self performSelector:sel];
     }
     return NO;
 }
@@ -129,7 +129,7 @@
     Method method = class_getClassMethod(self, sel);
     char *returnType = method_copyReturnType(method);
     if (strcmp(returnType, "B") == 0) {
-        return [self performSelector:sel];
+        return (BOOL)[self performSelector:sel];
     }
     return NO;
 }
@@ -149,7 +149,7 @@
     Method method = class_getInstanceMethod(self.class, sel);
     char *returnType = method_copyReturnType(method);
     if (strcmp(returnType, "B") == 0) {
-        return [self performSelector:sel withObject:obj];
+        return (BOOL)[self performSelector:sel withObject:obj];
     }
     return NO;
 }
@@ -160,7 +160,7 @@
     Method method = class_getClassMethod(self, sel);
     char *returnType = method_copyReturnType(method);
     if (strcmp(returnType, "B") == 0) {
-        return [self performSelector:sel withObject:obj];
+        return (BOOL)[self performSelector:sel withObject:obj];
     }
     return NO;
 }
@@ -180,7 +180,7 @@
     Method method = class_getInstanceMethod(self.class, sel);
     char *returnType = method_copyReturnType(method);
     if (strcmp(returnType, "B") == 0) {
-        return [self performSelector:sel withObject:obj1 withObject:obj2];
+        return (BOOL)[self performSelector:sel withObject:obj1 withObject:obj2];
     }
     return NO;
 }
@@ -191,7 +191,7 @@
     Method method = class_getClassMethod(self, sel);
     char *returnType = method_copyReturnType(method);
     if (strcmp(returnType, "B") == 0) {
-        return [self performSelector:sel withObject:obj1 withObject:obj2];
+        return (BOOL)[self performSelector:sel withObject:obj1 withObject:obj2];
     }
     return NO;
 }
