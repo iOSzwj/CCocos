@@ -40,8 +40,8 @@ end
 
 spec.subspec 'MBProgressHUD' do |mb|
 mb.source_files = 'ACode/MBProgressHUD/*.{h,m}'
-mb.resource_bundle = 'ACode/MBProgressHUD/**/*.png'
 mb.dependency 'MBProgressHUD'
+mb.resources = 'ACode/MBProgressHUD/MBProgressHUD_CCocos.bundle'
 end
 
 end
